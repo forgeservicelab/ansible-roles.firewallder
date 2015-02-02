@@ -1,0 +1,4 @@
+---
+# handlers file for firewallder
+- name: reload firewalld
+  command: firewall-cmd --reload

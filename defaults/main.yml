@@ -1,0 +1,5 @@
+---
+# defaults file for firewallder
+services_dir: services
+zones_dir: zones
+default_zone: public
