@@ -3,6 +3,11 @@
 - name: Install firewalld
   yum: name=firewalld state=installed
 
+- name: Start firewalld
+  service: name=firewalld state=started enabled=yes
+  poll: 5
+  async: 10
+
 - name: Ensure configuration directories exist
   file:
     dest: "/etc/firewalld/{{ item }}"
