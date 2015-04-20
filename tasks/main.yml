@@ -1,5 +1,8 @@
 ---
 # tasks file for firewallder
+- name: Install firewalld
+  yum: name=firewalld state=installed
+
 - name: Ensure configuration directories exist
   file:
     dest: "/etc/firewalld/{{ item }}"
