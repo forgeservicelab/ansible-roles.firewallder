@@ -2,7 +2,7 @@
 galaxy_info:
   author: Jorge Rodriguez
   description: Uploads firewall configuration files for CentOS firewalld
-  company: Digile Oy
+  company: DIGILE LTd.
   # Some suggested licenses:
   # - BSD (default)
   # - MIT
@@ -10,7 +10,7 @@ galaxy_info:
   # - GPLv3
   # - Apache
   # - CC-BY
-  license: GPLv3
+  license: MIT
   min_ansible_version: 1.8.1
   #
   # Below are all platforms currently available. Just uncomment
